@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-20T06:39:20 CST" name="Suite" finished-at="2024-02-20T06:39:48 CST" duration-ms="27837">
+    <groups>
+    </groups>
+    <test started-at="2024-02-20T06:39:20 CST" name="Test" finished-at="2024-02-20T06:39:48 CST" duration-ms="27837">
+      <class name="com.myorg.tests.GoogleTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myorg.tests.GoogleTests@1622f1b]" started-at="2024-02-20T06:39:20 CST" name="setUp" finished-at="2024-02-20T06:39:21 CST" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateFirstGoogleSearchResult(java.util.Map)[pri:0, instance:com.myorg.tests.GoogleTests@1622f1b]" started-at="2024-02-20T06:39:21 CST" name="validateFirstGoogleSearchResult" data-provider="getGoogleSearchQueryData" finished-at="2024-02-20T06:39:25 CST" duration-ms="4059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchText=Selenium Documentation, firstResultAltText=The Selenium Browser Automation Project}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFirstGoogleSearchResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myorg.tests.GoogleTests@1622f1b]" started-at="2024-02-20T06:39:25 CST" name="tearDown" finished-at="2024-02-20T06:39:25 CST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myorg.tests.GoogleTests -->
+      <class name="com.myorg.tests.BingTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myorg.tests.BingTests@7ed7259e]" started-at="2024-02-20T06:39:25 CST" name="setUp" finished-at="2024-02-20T06:39:26 CST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateFirstBingSearchResult(java.util.Map)[pri:0, instance:com.myorg.tests.BingTests@7ed7259e]" started-at="2024-02-20T06:39:26 CST" name="validateFirstBingSearchResult" data-provider="getBingSearchQueryData" finished-at="2024-02-20T06:39:30 CST" duration-ms="3710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchText=Rest Assured Documentation, firstResultAltText=REST Assured}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFirstBingSearchResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myorg.tests.BingTests@7ed7259e]" started-at="2024-02-20T06:39:30 CST" name="tearDown" finished-at="2024-02-20T06:39:30 CST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myorg.tests.BingTests -->
+      <class name="com.myorg.tests.YahooTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myorg.tests.YahooTests@28eaa59a]" started-at="2024-02-20T06:39:30 CST" name="setUp" finished-at="2024-02-20T06:39:30 CST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateFirstYahooSearchResult(java.util.Map)[pri:0, instance:com.myorg.tests.YahooTests@28eaa59a]" started-at="2024-02-20T06:39:30 CST" name="validateFirstYahooSearchResult" data-provider="getYahooSearchQueryData" finished-at="2024-02-20T06:39:47 CST" duration-ms="16924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchText=JMeter Documentation, firstResultAltText=Apache JMeter - User's Manual}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFirstYahooSearchResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myorg.tests.YahooTests@28eaa59a]" started-at="2024-02-20T06:39:47 CST" name="tearDown" finished-at="2024-02-20T06:39:48 CST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myorg.tests.YahooTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
